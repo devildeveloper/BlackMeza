@@ -1,0 +1,26 @@
+{
+  "name": "generator-blackmeza",
+  "version": "0.0.3",
+  "description": "",
+  "main": "gulpfile.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devildeveloper/BlackMeza"
+  },
+  "author": "Miguel Aliaga (@devildeveloper)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devildeveloper/BlackMeza/issues"
+  },
+  "homepage": "https://github.com/devildeveloper/BlackMeza",
+  "dependencies": {
+    "chalk": "*",
+    "yeoman-generator": "^0.17.3"
+  }
+}

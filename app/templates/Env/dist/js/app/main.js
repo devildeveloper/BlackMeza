@@ -1,0 +1,1 @@
+define(["jquery","slick","picturefill","analitics"],function(n){function e(){console.log("hola k ase?")}n(document).on("ready",e)});
