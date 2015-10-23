@@ -6,7 +6,7 @@ Un pequeño framework para agilizar la creación de sitios web y web apps.BlackM
 
 1. nodejs
 2. gulp en forma global ( npm install -g gulp)
-3. Yeoman (npm install -g yeoman)
+3. Yeoman (npm install -g yo)
 
 
 ## ¿Como lo uso?
