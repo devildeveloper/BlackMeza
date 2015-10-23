@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "gulpfile.js",
+  "start": "gulpfile.js",  
   "repository": {
     "type": "git",
     "url": "https://your_url_repo"

@@ -48,11 +48,11 @@ gulp.task('web-server',function(){
     }));
 });
 //validators
-gulp.task('jshint',function(){
+/*gulp.task('jshint',function(){
   gulp.src('source/js/app/*.js')
     .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter('jshint-stylish'));
-});
+});*/
 gulp.task('htmlhint',function(){
   gulp.src('dist/*.html')
   .pipe(htmlhint({
@@ -70,9 +70,9 @@ gulp.task('copy-Js',function(){
 });
 //gulp min js
 gulp.task('uglify',function(){
-  gulp.src('source/js/app/main.js')
+  gulp.src('source/js/main.js')
     .pipe(uglify())
-    .pipe(gulp.dest('dist/js/app/'))
+    .pipe(gulp.dest('dist/js/'))
 });
 //---------------------------------------------
 
@@ -86,7 +86,7 @@ gulp.task('watch',function(){
   gulp.watch(['source/styles/*.styl'],
               ['stylus-compile']);
   //js
-  gulp.watch(['source/js/app/main.js'],['uglify']);
+  gulp.watch(['source/js/main.js'],['uglify']);
 
 });
 //-----------------------------------
